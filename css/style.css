@@ -17,9 +17,9 @@ Header h1 to h6 : #4a4a4a
 Footer          : #8d8d8d
 
 a (standard)  : #8d8d8d
-a (hover)     : #dd6031
-a (active)    : #dd6031
-a (focus)     : #dd6031
+a (hover)     : #b9935a
+a (active)    : #b9935a
+a (focus)     : #b9935a
 -------------------------------------------------------------------*/
 
 /*------------------------------------------------------------------
@@ -148,7 +148,7 @@ a , a:visited , a:focus , a:hover{
 }
 
 a{
-	color: #dd6031;
+	color: #b9935a;
 }
 
 .btn-black {
@@ -161,7 +161,7 @@ a{
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
-  background: #dd6031;
+  background: #b9935a;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
@@ -206,7 +206,7 @@ a{
 }
 .btn-black:hover, .btn-black:focus, .btn-black:active {
   color: #ffffff;
-  background: #dd6031;
+  background: #b9935a;
 }
 .btn-black:hover:before, .btn-black:focus:before, .btn-black:active:before {
   -webkit-transform: scaleY(0);
@@ -335,7 +335,7 @@ textarea{
 }
 
 .menu-part ul li:hover a , .menu-part ul li.active a{
-	color: #dd6031;
+	color: #b9935a;
 	font-weight: 700;
 }
 
@@ -552,7 +552,6 @@ textarea{
   width: 0;
   height: 100%;
   content: "";
-  background: rgba(0,0,0,0.8);
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: 0.3s ease-in-out;
   -o-transition: 0.3s ease-in-out;
@@ -608,7 +607,7 @@ textarea{
   width: 100%;
   margin: 0 0 55px 0;
   position: relative;
-  background: url('../images/veg-bg.jpg') no-repeat center center;
+  background: url('../images/icecream.jpg') no-repeat center center;
   background-size: cover;
 }
 
@@ -699,11 +698,11 @@ textarea{
 }
 
 .dishes-list:hover h3 a{
-  color: #dd6031;
+  color: #b9935a;
 }
 
 .dishes-list:hover .dishes_price{
-  background: #dd6031;
+  background: #b9935a;
 }
 
 .dishes-list .btn-black{
@@ -712,7 +711,7 @@ textarea{
 
 .dishes-list:hover .btn-black{
   color: #ffffff;
-  background: #dd6031;
+  background: #b9935a;
 }
 .dishes-list:hover .btn-black:before{
   -webkit-transform: scaleY(0);
@@ -774,7 +773,7 @@ span.quort{
 }
 
 .find-location-right{
-  color: #dd6031;
+  color: #b9935a;
 }
 
 .find-location-right .fa{
@@ -909,8 +908,8 @@ span.quort{
 }
 
 .social ul li:hover a{
-  color: #dd6031;
-  border:2px solid #dd6031;
+  color: #b9935a;
+  border:2px solid #b9935a;
 }
 
 .footer-column h3{
@@ -950,7 +949,7 @@ span.quort{
 }
 
 .address-outer a:hover{
-  color: #dd6031;
+  color: #b9935a;
 }
 
 /*------------------------------------------------------------------
@@ -985,7 +984,7 @@ span.quort{
 .footer-bottom{
   float: left;
   width: 100%;
-  background: #dd6031;
+  background: #b9935a;
   padding: 10px 0 8px;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -1033,7 +1032,7 @@ span.quort{
 }
 
 .portfolioFilter a.current { 
-    color: #dd6031;
+    color: #b9935a;
 }
 
 .portfolioFilter a:last-child{
@@ -1106,7 +1105,7 @@ span.quort{
 }
 
 .bread-crumb-content a:hover{
-  color: #dd6031;
+  color: #b9935a;
 }
 
 .bread-crumb-inner{
@@ -1137,7 +1136,7 @@ span.quort{
 }
 
 .address-main .col-xs-12:hover a{
-  color: #dd6031;
+  color: #b9935a;
 }
 
 .address-main .col-xs-12{
@@ -1275,7 +1274,7 @@ span.quort{
 }
 
 .contact-add-left a:hover{
-  color: #dd6031;
+  color: #b9935a;
 }
 
 /*------------------------------------------------------------------
@@ -1308,7 +1307,7 @@ span.quort{
 }
 
 .post-link a:hover{
-  color: #dd6031;
+  color: #b9935a;
 }
 
 .post-left-link{
@@ -1417,7 +1416,7 @@ span.quort{
 }
 
 .post-categories ul li:hover a , .post-categories ul li.active a{
-  color: #dd6031;
+  color: #b9935a;
 }
 
 .post-categories ul li:hover a:before , .post-categories ul li.active a:before{
@@ -1519,8 +1518,8 @@ span.quort{
 }
 
 .news-pagination ul li.active a , .news-pagination ul li:hover a{
-  color: #dd6031;
-  border-color: #dd6031;
+  color: #b9935a;
+  border-color: #b9935a;
 }
 
 #pre-loader {
