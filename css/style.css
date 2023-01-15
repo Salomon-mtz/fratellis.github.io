@@ -861,7 +861,7 @@ span.quort{
 
 .footer-logo{
   display: inline-block;
-  width: 100%;
+  max-width: 50%;
 }
 
 .footer-logo a{
@@ -1074,7 +1074,7 @@ span.quort{
   width: 100%;
   background: #181a1f;
   padding-bottom: 30px;
-  margin-top: 30px;
+  margin-top: 70px;
 }
 
 .bread-crumb-img{
@@ -1523,7 +1523,7 @@ span.quort{
 }
 
 #pre-loader {
-  background: #e2d6ba none repeat scroll 0 0;
+  background: #b9935a none repeat scroll 0 0;
   bottom: 0;
   display: block;
   left: 0;
