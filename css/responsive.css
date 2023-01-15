@@ -636,7 +636,7 @@
 
   .menu-part ul > li.has-child > .sub-menu > li.active > a , .menu-part ul > li.has-child > .sub-menu > li:hover > a{
     color: #ffffff;
-    background: #dd6031;
+    background: #b9935a;
   }
 
   .menu-part ul li.has-child .sub-menu li.has-child .sub-menu{
