@@ -28,8 +28,8 @@ if( isset($_POST['email_address']) && !empty($_POST['email_address']) ){
 
 function send_message_to_agent( $full_name, $email_address, $visiter_message ){
 	
-	$to      = 'vishal.patel5359@gmail.com';
-	$subject = 'Food Truck Contact Page';
+	$to      = 'mtzelisalomon@gmail.com';
+	$subject = 'Fratelli Contact Page';
 	
 	$message = '<p>Name : '.$full_name.'</p>';
 	$message .= '<p>Email Address : '.$email_address.'</p>';

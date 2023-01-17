@@ -1,11 +1,11 @@
 /*------------------------------------------------------------------
 [Master Stylesheet]
 
-Project       : Food Truck - Food Truck And Restaurant Responsive HTML Template
+Project       : Fratelli's - Fratelli's And Restaurant Responsive HTML Template
 Version       : 2.0
 Last change   : 08/10/2021
 Assigned to   : RutVish
-Primary use   : Food Truck and Restaurant
+Primary use   : Fratelli's and Restaurant
 -------------------------------------------------------------------*/
 
 /*------------------------------------------------------------------
@@ -1175,14 +1175,14 @@ span.quort{
 .event-list{
   float: right;
   width: 84%;
-  border: 10px solid #e8e8e8;
+  border: 10px solid black;
   padding: 40px 40px 60px 260px;
   position: relative;
   margin: 0 0 120px 0;
 }
 
 .event-list:hover{
-  border-color: #f8dfd6;
+  border-color: #b9935a;
 }
 
 .event-list:hover .btn-black:before{

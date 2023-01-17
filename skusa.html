@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Contacto</title>
+    <title>Fratelli's</title>
 
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
@@ -41,18 +41,27 @@
             <div class="menu-part-outer">
               <div class="menu-part">
                 <ul>
-                  <li class=""><a href="index.html" title="Home">Home</a></li>
-                  <li class=" has-child"><a href="menu.html" title="Menú">Menú</a></li>
-                  <li><a href="truck-locator.html" title="¿Dónde estamos?">¿Dónde estamos?</a></li>
-                  <li><img class="logo" src="images/logo.png" href="index.html" alt=""></li>
-                  <li class="has-child">
-                    <a href="event.html" title="Eventos">Eventos</a>
+                  <li><a href="index.html" title="Home">Home</a></li>
+                  <li><a href="menu.html" title="Menu">Menu</a></li>
+                  <li><a href="truck-locator.html" title="Truck locator">Truck locator</a></li>
+                  <li class="logo"><a href="index.html"></a></li>
+                  <li class="has-child active">
+                    <a href="event.html" title="events">events<span class="caret"></span></a>
+                    <ul class="sub-menu">
+                      <li class="active"><a href="event-detail.html">event detail</a></li>
+                    </ul>
                   </li>
-                  <li class="active"><a href="contact.html" title="contact">Contacto</a></li>
+                  <li class="has-child">
+                    <a href="news.html" title="News">News <span class="caret"></span></a>
+                    <ul class="sub-menu">
+                      <li><a href="post-detail.html">News Detail</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="contact.html" title="contact">contact</a></li>
                 </ul>
               </div> <!-- menu-part -->
               <div class="logo-header">
-                <a href="index.html"><img src="images/logo.png" alt=""></a>
+                <a href="index.html"><img src="images/footer-logo.png" alt=""></a>
               </div> <!-- logo-header -->
               <div id="page">
                 <div class="header">
@@ -60,13 +69,22 @@
                 </div>
                 <nav id="menu">
                   <ul>
-                    <li><a href="index.html" title="Home">Home</a></li>
-                    <li><a href="menu.html" title="Menú">Menú</a></li>
-                    <li><a href="truck-locator.html" title="Truck locator">¿Dónde estamos?</a></li>
+                    <li class="active"><a href="index.html" title="Home">Home</a></li>
+                    <li><a href="menu.html" title="Menu">Menu</a></li>
+                    <li><a href="truck-locator.html" title="Truck locator">Truck locator</a></li>
                     <li>
-                      <a href="event.html" title="Eventos">Eventos</a>
+                      <a href="event.html" title="events">events</a>
+                      <ul>
+                        <li><a href="event-detail.html">event detail</a></li>
+                      </ul>
                     </li>
-                    <li><a href="contact.html" title="Contacto">Contacto</a></li>
+                    <li>
+                      <a href="news.html" title="News">News</a>
+                      <ul>
+                        <li><a href="post-detail.html">News Detail</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="contact.html" title="contact">contact</a></li>
                   </ul>
                 </nav>
               </div>
@@ -75,61 +93,39 @@
         </div> <!-- header-part -->
         <section class="bread-crumb-container">
           <div class="bread-crumb-img">
-            <img src="images/bread-crumb4.jpg" alt="">
+            <img src="images/bread-crumb3.png" alt="">
           </div>
           <div class="bread-crumb-content">
             <div class="bread-crumb-inner">
-              <h2 style="padding-left: 30px;">Contacto</h2>
-              <p style="padding-left: 30px;"><a href="index.html">Home</a> - <a href="contact.html">Contacto</a></p>
+              <h2>Event Detail</h2>
+              <a href="index.html">Home</a> - <a href="event-detail.html">Event Detail</a>
             </div>
           </div> <!-- bread-crumb-content -->
         </section> <!-- bread-crumb-container -->
         <div class="main-part">
-          <section class="shedule-container contact-container">
-            <div class="shedule-part">
-              <div class="container">
-                <div class="shedule-left">
-                  <h2>Contáctanos</h2>
-                  <p>Si tienes alguna duda o desear recibir una cotización para tu evento, no dudes en escribirnos. Estámos para servirte.</p>
-                  <div class="row contact-bottom">
-                    <div class="col-md-4 col-sm-12 col-xs-12 contact-add-left">
-                      <div class="contact-add-inner">
-                        <span>Dirección</span>
-                        <p>Av. Erasmo Castellanos Quinto 454, CDMX</p>
-                      </div>
-                      <div class="contact-add-inner">
-                        <span>Teléfono</span>
-                        <a href="tel:5618119658">(+52) 56 1811 9658</a>
-                      </div>
-                      <div class="contact-add-inner">
-                        <span>Email</span>
-                        <a href="mailto:galliasoft@yahoo.com">galliasoft@yahoo.com</a>
-                      </div>
-                    </div>
-                    <div class="col-md-8 col-sm-12 col-xs-12 contact-add-right">
-                      <form name="contact-form" method="post" action="functions.php">
-                        <div class="form-field">
-                          <input name="full_name" placeholder="* Nombre" type="text" required>
-                        </div> <!-- form-field -->
-                        <div class="form-field">
-                          <input name="email_address" placeholder="* Email" type="email" required>
-                        </div> <!-- form-field -->
-                        <div class="form-field">
-                          <textarea name="message" placeholder="* comentario" required></textarea>
-                        </div> <!-- form-field -->
-                        <div class="form-field">
-                          <button class="btn-black">Enviar</button>
-                        </div> <!-- form-field -->
-                      </form>                   
-                    </div>
+          <section class="event-container">
+            <div class="container">
+              <div class="event-detail-wrap">
+                <div class="event-list wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                  <div class="event-pic">
+                    <img src="images/event1.jpg" alt="">
                   </div>
+                  <h3>We went to all the weddings on 17th</h3>
+                  <span>17 august 2016</span>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                  <p><i>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</i></p>
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                  <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                </div> <!-- event-list -->
+                <div class="pn-link">
+                  <div class="prev-link"><a href="javascript:;" class="btn-black">Previous event</a></div><div class="next-link"><a href="javascript:;" class="btn-black">Next event</a></div>  
                 </div>
-                <div class="shedule-right">
-                  <img src="images/logo.png" alt="">
-                </div>
-              </div> <!-- container -->
-            </div> <!-- shedule-part -->
-          </section> <!-- shedule-container -->          
+              </div> <!-- event-wrap -->
+            </div>
+          </section> <!-- event-container -->
+          <div class="map-outer">
+            <div id="truck-locator"></div>
+          </div>
         </div> <!-- main-part -->
         <div class="footer-part">
           <div class="container">
@@ -137,28 +133,31 @@
               <div class="col-md-4 col-sm-4 col-xs-12">
                 <div class="footer-column">
                   <div class="footer-logo">
-                    <a href="index.html"><img src="images/logo.png" alt=""></a>
+                    <a href="index.html"><img src="images/footer-logo.png" alt=""></a>
                   </div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                   <div class="social">
                     <ul>
-                      <li><a href="https://www.google.com/maps/dir/19.3392592,-99.1349172/fratellis+fuente/@19.3390007,-99.1343856,17z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x85ce01d8a593ffbd:0x4d01b8c295f216d1!2m2!1d-99.1298558!2d19.3387794" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a></li>
-                      <li><a href="https://www.facebook.com/fratellis.ortegs" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                      <li><a href="https://www.instagram.com/fratellis_helados/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                      <li><a href="javascript:;"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+                      <li><a href="javascript:;"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                      <li><a href="javascript:;"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                      <li><a href="javascript:;"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                     </ul>
                   </div> <!-- social -->
                 </div> <!-- footer-column -->
               </div>
               <div class="col-md-4 col-sm-3 col-xs-12">
                 <div class="footer-column">
-                  <h3>Información de contacto</h3>
+                  <h3>Contact info</h3>
                   <div class="address-outer">
                     <div class="address-blog">
-                      <h6>Dirección</h6>
-                      <p>Av. Erasmo Castellanos Quinto 454, CDMX</p>
+                      <h6>Address</h6>
+                      <p>No 13, Emerald Hills, California, USA</p>
                     </div> <!-- address-blog -->
                     <div class="address-blog">
                       <h6>Teléfono</h6>
-                      <a href="tel:5618119658">(+52) 56 1811 9658</a>
+                      <a href="javascript:;">(+800) 123 456 781</a>
+                      <a href="javascript:;">(+800) 888 999 221</a>
                     </div> <!-- address-blog -->
                     <div class="address-blog">
                       <h6>Email</h6>
@@ -170,19 +169,19 @@
               <div class="col-md-4 col-sm-5 col-xs-12">
                 <div class="footer-column footer-column-form">
                   <form class="form-footer" name="contact-form" method="post" action="functions.php">
-                    <h3>Contáctanos</h3>
+                    <h3>Contact us</h3>
                     <div class="alert-container"></div>
                     <div class="form-field">
-                      <input type="text" name="full_name" placeholder="* Nombre" required>
+                      <input type="text" name="full_name" placeholder="* Name" required>
                     </div> <!-- form-field -->
                     <div class="form-field">
                       <input type="email" name="email_address" placeholder="* Email" required>
                     </div> <!-- form-field -->
                     <div class="form-field">
-                      <textarea name="message" placeholder="* commentario" required></textarea>
+                      <textarea name="message" placeholder="* comment" required></textarea>
                     </div> <!-- form-field -->
                     <div class="form-field">
-                      <button type="submit" class="btn-black send_message">Enviar</button>
+                      <button type="submit" class="btn-black send_message">Send message</button>
                     </div> <!-- form-field -->
                   </form>
                 </div> <!-- footer-column -->
@@ -191,11 +190,12 @@
           </div>
           <div class="footer-bottom">
             <div class="container">
-              <p>© Fratelli's Fuente de Sodas y Helados. Todos los derechos reservados.</p>
+              <p>© Fratelli's. All rights reserved. Design by Galliasoft</p>
             </div>
           </div>
         </div> <!-- footer-part -->
-        </div> <!-- wrapper --> 
+      </div> <!-- wrapper --> 
+    <a href="javascript:;" class="top-arrow"></a>
     <script src="js/jquery.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAf6My1Jfdi1Fmj-DUmX_CcNOZ6FLkQ4Os"></script>
     <script src="js/bootstrap.js"></script>

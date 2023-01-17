@@ -278,7 +278,7 @@
 .fa-flag:before {
   content: "\f024";
 }
-.fa-headphones:before {
+.fa-headTeléfonos:before {
   content: "\f025";
 }
 .fa-volume-off:before {
@@ -604,7 +604,7 @@
 .fa-lemon-o:before {
   content: "\f094";
 }
-.fa-phone:before {
+.fa-Teléfono:before {
   content: "\f095";
 }
 .fa-square-o:before {
@@ -613,7 +613,7 @@
 .fa-bookmark-o:before {
   content: "\f097";
 }
-.fa-phone-square:before {
+.fa-Teléfono-square:before {
   content: "\f098";
 }
 .fa-twitter:before {
@@ -917,7 +917,7 @@
 .fa-tablet:before {
   content: "\f10a";
 }
-.fa-mobile-phone:before,
+.fa-mobile-Teléfono:before,
 .fa-mobile:before {
   content: "\f10b";
 }
@@ -1019,10 +1019,10 @@
 .fa-puzzle-piece:before {
   content: "\f12e";
 }
-.fa-microphone:before {
+.fa-microTeléfono:before {
   content: "\f130";
 }
-.fa-microphone-slash:before {
+.fa-microTeléfono-slash:before {
   content: "\f131";
 }
 .fa-shield:before {

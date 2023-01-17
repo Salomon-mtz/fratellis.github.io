@@ -88,7 +88,7 @@
   opacity: 0;
   z-index: -1000;
 }
-/* IE10 Windows Phone 8 Fixes */
+/* IE10 Windows Teléfono 8 Fixes */
 .swiper-wp8-horizontal {
   -ms-touch-action: pan-y;
   touch-action: pan-y;

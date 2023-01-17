@@ -3164,7 +3164,7 @@
             var ua = navigator.userAgent.toLowerCase();
             return (ua.indexOf('safari') >= 0 && ua.indexOf('chrome') < 0 && ua.indexOf('android') < 0);
         })(),
-        isUiWebView: /(iPhone|iPod|iPad).*AppleWebKit(?!.*Safari)/i.test(navigator.userAgent),
+        isUiWebView: /(iTeléfono|iPod|iPad).*AppleWebKit(?!.*Safari)/i.test(navigator.userAgent),
         isArray: function (arr) {
             return Object.prototype.toString.apply(arr) === '[object Array]';
         },
@@ -3183,9 +3183,9 @@
             var android = ua.match(/(Android);?[\s\/]+([\d.]+)?/);
             var ipad = ua.match(/(iPad).*OS\s([\d_]+)/);
             var ipod = ua.match(/(iPod)(.*OS\s([\d_]+))?/);
-            var iphone = !ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/);
+            var iTeléfono = !ipad && ua.match(/(iTeléfono\sOS)\s([\d_]+)/);
             return {
-                ios: ipad || iphone || ipod,
+                ios: ipad || iTeléfono || ipod,
                 android: android
             };
         })(),

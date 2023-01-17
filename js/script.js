@@ -117,7 +117,7 @@ $(document).on('ready',function(){
 	        // Automatically center the map fitting all markers on the screen
 	        map.fitBounds(bounds);
 
-	        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+	        if (/Android|webOS|iTeléfono|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
 				map.setOptions({ 'draggable': false });
 			}
 	    }

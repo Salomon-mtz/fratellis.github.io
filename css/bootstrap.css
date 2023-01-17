@@ -403,7 +403,7 @@ th {
 .glyphicon-flag:before {
   content: "\e034";
 }
-.glyphicon-headphones:before {
+.glyphicon-headTeléfonos:before {
   content: "\e035";
 }
 .glyphicon-volume-off:before {
@@ -721,7 +721,7 @@ th {
 .glyphicon-link:before {
   content: "\e144";
 }
-.glyphicon-phone:before {
+.glyphicon-Teléfono:before {
   content: "\e145";
 }
 .glyphicon-pushpin:before {
@@ -829,10 +829,10 @@ th {
 .glyphicon-compressed:before {
   content: "\e181";
 }
-.glyphicon-earphone:before {
+.glyphicon-earTeléfono:before {
   content: "\e182";
 }
-.glyphicon-phone-alt:before {
+.glyphicon-Teléfono-alt:before {
   content: "\e183";
 }
 .glyphicon-tower:before {
