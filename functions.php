@@ -26,18 +26,18 @@ if( isset($_POST['email_address']) && !empty($_POST['email_address']) ){
     </div>";
 }
 
-function send_message_to_agent( $full_name, $email_address, $visiter_message ){
+function send_message_to_agent( $full_name, $email_address, $message ){
 	
 	$to      = 'mtzelisalomon@gmail.com';
 	$subject = 'Fratelli Contact Page';
 	
 	$message = '<p>Name : '.$full_name.'</p>';
 	$message .= '<p>Email Address : '.$email_address.'</p>';
-	$message .= '<p>Message : '.$visiter_message.'</p>';
+	$message .= '<p>Message : '.$message.'</p>';
 	
 	$headers = "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
-	$headers .= "From: support@madlenedesign.com\r\n";
+	$headers .= "From: mtzelisalomon@gmail.com\r\n";
 	
 	return mail($to, $subject, $message, $headers);
 }
